@@ -1,0 +1,67 @@
+/* Write your CSS here */
+.bg-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: url('https://assets.ccbp.in/frontend/react-js/random-no-generator-bg.png');
+  background-size: cover;
+  height: 100vh;
+}
+.random-number-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #ffffff;
+  width: 80%;
+  border-radius: 15px;
+  border: 1px solid #e4ebf3;
+  padding: 35px;
+  box-shadow: 0px 4px 16px 0px #eaebed;
+}
+.heading {
+  text-align: center;
+  color: #0b69ff;
+  font-family: 'Roboto';
+  font-size: 20px;
+  font-weight: 700;
+}
+.paragraph {
+  text-align: center;
+  color: #333333;
+  font-size: 15px;
+  font-family: 'Roboto';
+}
+.button {
+  background-color: #0b69ff;
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-size: 12px;
+  font-weight: 500;
+  border-radius: 10px;
+  border: none;
+  padding: 12px;
+  margin-top: 15px;
+}
+.random-number {
+  color: #0b69ff;
+  font-family: 'Roboto';
+  font-size: 40px;
+  font-weight: 700;
+  margin-top: 24px;
+}
+@media (min-width: 768px) {
+  .random-number-container {
+    width: 40%;
+    max-width: 500px;
+  }
+  .heading {
+    font-size: 25px;
+  }
+  .paragraph {
+    font-size: 18px;
+  }
+  .random-number {
+    font-size: 50px;
+  }
+}
